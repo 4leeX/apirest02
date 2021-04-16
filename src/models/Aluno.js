@@ -27,7 +27,7 @@ export default class Aluno extends Model {
         type: Sequelize.STRING,
         defaultValue: '',
         validate: {
-          isMail: {
+          isEmail: {
             msg: 'E-mail inválido.',
           },
         },
