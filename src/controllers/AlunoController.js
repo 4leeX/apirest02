@@ -91,7 +91,7 @@ class AlunoController {
         });
       }
 
-      const alunoAtualizado = aluno.update(req.body);
+      const alunoAtualizado = await aluno.update(req.body);
 
       return res.json(alunoAtualizado);
     } catch (e) {
