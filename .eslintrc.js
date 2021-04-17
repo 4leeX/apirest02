@@ -16,5 +16,6 @@ module.exports = {
     'import/first': 'off',
     'no-undef': 'off',
     'no-param-reassign': 'off',
+    camelcase: 'off',
   },
 };
